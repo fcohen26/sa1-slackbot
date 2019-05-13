@@ -12,7 +12,6 @@ const app = express();
 const controller = botkit.slackbot({
   debug: false,
 });
-
 // initialize slackbot
 const slackbot = controller.spawn({
   token: process.env.SLACK_BOT_TOKEN,
